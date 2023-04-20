@@ -12,6 +12,7 @@ import homeRoutes from './routes/homeRoutes';
 import userRoutes from './routes/userRoutes';
 import tokenRoutes from './routes/tokenRoutes';
 import teacherRoutes from './routes/teacherRoutes';
+import alunoRoutes from './routes/studentRoutes';
 
 const whiteList = ['http://localhost:3000'];
 
@@ -47,7 +48,8 @@ class App {
     this.app.use('/', homeRoutes);
     this.app.use('/users/', userRoutes);
     this.app.use('/tokens/', tokenRoutes);
-    this.app.use('/teacher/', teacherRoutes);
+    this.app.use('/teachers/', teacherRoutes);
+    this.app.use('/students/', alunoRoutes);
   }
 }
 
