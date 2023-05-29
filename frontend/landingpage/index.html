@@ -1,25 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="/frontend/landingpage/assets/css/reset.css" />
+    <link rel="stylesheet" href="/frontend/landingpage/assets/css/style.css" />
+    <link rel="stylesheet" href="/frontend/landingpage/assets/css/header.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- title -->
     <title>LSClasses</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- header -->
     <header>
-
+      <div class="header-content">
+        <img
+          src="/frontend/landingpage/assets/img/logo.jpg"
+          alt="Logotipo da empresa"
+        />
+        <nav>
+          <ul>
+            <li><a href="#">Nossos professores</a></li>
+            <li><a href="#cursos">Nosso Curso</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
+    <main>
+      <!-- teacher section -->
+      <section id="teachers">
+        <h2>Nossos Professores</h2>
+        <div class="teachers-container">
+          <div class="teacher-profile">
+            <img
+              src="/frontend/landingpage/assets/img/profileLele.JPG"
+              alt="Foto da Professora Letícia"
+            />
+            <h3>Letícia</h3>
+          </div>
+          <div class="teacher-profile">
+            <img
+              src="/frontend/landingpage/assets/img/profileJaque.jpg"
+              alt="Foto da Professora Jaqueline"
+            />
+            <h3>Jaqueline</h3>
+          </div>
+          <div class="teacher-profile">
+            <img
+              src="/frontend/landingpage/assets/img/profileMatheus.jpg"
+              alt="Foto do Professor Matheus"
+            />
+            <h3>Matheus</h3>
+          </div>
+        </div>
+      </section>
 
-
-    <footer>
-
-    </footer>
-</body>
-
+      <!-- our course section -->
+    </main>
+    <footer></footer>
+  </body>
 </html>

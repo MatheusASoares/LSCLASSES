@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #F2D750;
+    --main-size-font: 16px;
+    --main-font-family: 'Roboto', sans-serif;
+    }
+
+    * {
+        font-family: var(--main-font-family);
+        font-size: var(--main-size-font);
+    }
